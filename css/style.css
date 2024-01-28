@@ -113,6 +113,11 @@ p{
   text-transform: uppercase;
   color: white;
 }
+.btn:hover{ 
+  /* Grossir le bouton*/
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
 
 hr{
   margin: 30px auto;
@@ -133,4 +138,59 @@ hr{
   text-align: center;
   color: white;
   width: 30%;
+}
+
+.person{
+  height: 900px;
+  width: 100%;
+  background: url('../assets/server.jpg') no-repeat ;
+  background-size: cover;
+  
+}
+
+.reservation{
+  background-color: #1f2042;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.footer{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #1f2042;
+  border-top: 1px solid white;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 1rem ;
+}
+
+.menu li a:hover{
+  border-bottom: 2px solid #f79533;
+}
+
+.footer p{
+  margin-top: 2rem;
 }
