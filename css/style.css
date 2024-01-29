@@ -1,39 +1,42 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-.header{
+.header {
   background-color: #1f2042;
   padding: 20px;
 }
 
-.nav{
-width: 100%;
-display:flex;
-justify-content: space-between;
-align-items: center;  
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#logo{
+#logo {
   font-size: 20px;
   font-weight: bold;
   background: linear-gradient(90deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
+  margin-left: 60px;
 }
 
 .nav ul {
+  width: 500px;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  margin-right: 60px;
 }
 
 .nav ul li {
@@ -43,9 +46,8 @@ align-items: center;
 
 .nav ul li a {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 .header nav ul li a:hover {
@@ -58,19 +60,19 @@ align-items: center;
 }
 
 /* Résumé du restaurant*/
-.summary{
+.summary {
   background: url('../assets/cafe.jpg') no-repeat center;
   background-size: cover;
   height: 500px;
 }
 
-.text-content{
+.text-content {
   background-color: #1f2042;
   color: white;
   padding: 30px;
 }
 
-.summary-content{
+.summary-content {
   width: 50%;
   padding: 10px;
   margin: 0 auto;
@@ -80,21 +82,21 @@ align-items: center;
   line-height: 30px;
 }
 
-.title{
+.title {
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-.separator{
+.separator {
   height: 3px;
   width: 100px;
   background: linear-gradient(90deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
   margin: 20px auto;
 }
 
-p{
+p {
   margin-bottom: 20px;
   font-size: 18px;
   line-height: 30px;
@@ -104,7 +106,7 @@ p{
   padding: 10px;
 }
 
-.btn{
+.btn {
   background: linear-gradient(90deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
   padding: 10px 30px;
   border-radius: 5px;
@@ -113,13 +115,14 @@ p{
   text-transform: uppercase;
   color: white;
 }
-.btn:hover{ 
+
+.btn:hover {
   /* Grossir le bouton*/
   transform: scale(1.1);
   transition: all 0.5s ease;
 }
 
-hr{
+hr {
   margin: 30px auto;
   height: 3px;
   width: 100px;
@@ -127,7 +130,7 @@ hr{
   border: none;
 }
 
-.feature{
+.feature {
   display: flex;
   justify-content: space-around;
   background-color: #1f2042;
@@ -140,22 +143,22 @@ hr{
   width: 30%;
 }
 
-.person{
+.person {
   height: 900px;
   width: 100%;
-  background: url('../assets/server.jpg') no-repeat ;
+  background: url('../assets/server.jpg') no-repeat;
   background-size: cover;
-  
+
 }
 
-.reservation{
+.reservation {
   background-color: #1f2042;
   padding: 30px;
   text-align: center;
   color: white;
 }
 
-.container{
+.container {
   width: 50%;
   margin: 0 auto;
   text-align: center;
@@ -165,8 +168,8 @@ hr{
   padding: 10px;
 }
 
-.footer{
-  display:flex;
+.footer {
+  display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
@@ -174,7 +177,7 @@ hr{
   border-top: 1px solid white;
 }
 
-.menu{
+.menuFooter {
   display: flex;
   justify-content: space-around;
   width: 50%;
@@ -184,13 +187,55 @@ hr{
   font-weight: bold;
   text-transform: uppercase;
   padding: 10px;
-  margin: 1rem ;
+  margin: 1rem;
 }
 
-.menu li a:hover{
+.menuFooter li a:hover {
   border-bottom: 2px solid #f79533;
 }
 
-.footer p{
+.footer p {
   margin-top: 2rem;
+}
+
+.where {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2042;
+  color: white;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.where-content {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.map {
+  width: 500px;
+  height: 300px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.container p{
+  margin-top: 1rem;
+  padding: 10px;
+  
 }
