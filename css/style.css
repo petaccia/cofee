@@ -234,8 +234,78 @@ hr {
   padding: 10px;
 }
 
-.container p{
-  margin-top: 1rem;
+
+.contact{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f2042;
+  color: white;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.form-contact-container{
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  border: #acaaaa 1px solid;
   padding: 10px;
-  
+}
+
+.form-contact{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  height: 80%;
+  justify-content: space-around;
+ 
+}
+
+.form-contact-container form label {
+  color:#acaaaa;
+  font-size: 16px;
+}
+
+.form-contact-container form input{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form-contact-container form textarea{
+  width: 100%;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn-contact{
+  align-self: flex-end;
+  margin-top: 10px;
+  height: 30px;
+  width: 100px;
+  background-color:#3e7cf8;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn-contact:hover{
+  background-color: #22234a;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+}
 }
